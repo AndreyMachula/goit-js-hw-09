@@ -95,25 +95,3 @@ function convertMs(ms) {
 const addLeadingZero = (value, elem) => {
   elem.textContent = String(value).padStart(2, '0')
 };
-
-
-// deltaTime.style.boxShadow = '0 0 15px #212121';
-// // deltaTime.style.borderRadius = '5%';
-// deltaTime.style.backgroundColor = '#eee';
-// deltaTime.style.width = '800px';
-// deltaTime.style.padding = '30px';
-
-// deltaTime.style.display = 'flex';
-// deltaTime.style.justifyContent = 'space-between'
-// // deltaTime.style.flexFlow = 'row nowrap';
-// // deltaTime.style.textAlign ='centr';
-// deltaTime.style.margin = '30px';
-// deltaTime.style.fontSize ='40px';
-// // selector.style.fontSize ='30px';
-// // selector.style.padding = '10px';
-// // startBtn.style.fontSize ='40px';
-// // startBtn.style.alignItems ='centr';
-// // startBtn.style.marginLeft ='30px';
-
-// fieldBlock.style.display = 'flex';
-// fieldBlock.style.flexDirection = 'column';
