@@ -41,5 +41,4 @@ function createPromise(position, delay) {
         reject({ position, delay });
       }
   });
-  
 };
