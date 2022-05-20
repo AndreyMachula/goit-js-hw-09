@@ -68,7 +68,7 @@ class Timer {
       const timerComponents = this.convertMs(deltaTime);
       // Calls a function that passes the time
       this.onTick(timerComponents)
-      if (deltaTime <= 0) {
+      if (deltaTime < 1000) {
         this.stopTimer();
       }
     }, 1000);
